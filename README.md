@@ -14,9 +14,9 @@ Además de Django y React, el proyecto también hace uso de otras tecnologías c
 - mysql
 
 # Instalación de dependencias del backend (Django)
-python -m venv venv
-source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
-pip install -r requirements.txt
+- python -m venv venv
+- source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
+- pip install -r requirements.txt
 
 # Compilación y ejecución del backend (Dajngo)
 Tener corriendo mysql en la maquina local
@@ -26,8 +26,8 @@ Tener corriendo mysql en la maquina local
 - python manage.py runserver
 
 # Instalación de dependencias del frontend (Vite)
-cd frontend
-npm install
+- cd frontend
+- npm install
 
 # Compilación y ejecución del frontend
 npm run dev
