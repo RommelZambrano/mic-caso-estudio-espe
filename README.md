@@ -33,7 +33,7 @@ Tener corriendo mysql en la maquina local
 npm run dev
 
 # Crear las variables de entrono
-
+Fuera de las carpetas crear el .env y el .env.local dentro de la carpeta frontend
 ## .env
 SECRET_KEY='clave_secreta_aqui_del_archivo_setting_de_la_carpeta_backend'
 
