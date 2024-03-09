@@ -19,9 +19,11 @@ source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
 pip install -r requirements.txt
 
 # Compilación y ejecución del backend (Dajngo)
-python manage.py makemigrations     # tener corriendo mysql en la maquina local
-python manage.py migrate
-python manage.py runserver
+Tener corriendo mysql en la maquina local
+
+- python manage.py makemigrations     
+- python manage.py migrate
+- python manage.py runserver
 
 # Instalación de dependencias del frontend (Vite)
 cd frontend
